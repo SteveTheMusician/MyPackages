@@ -22,3 +22,9 @@ button:focus-visible {
     outline: 0px solid;
     filter: invert(1);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
