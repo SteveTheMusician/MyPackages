@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0px solid;
+}
+
+button[disabled],
+button[disabled]:hover,
+input[disabled],
+select[disabled] {
+    cursor: not-allowed;
+}
+
+button[disabled] svg,
+button[disabled]:hover svg {
+    cursor: not-allowed;
+}
+
+button:focus-visible {
+    outline: 0px solid;
+    filter: invert(1);
+}

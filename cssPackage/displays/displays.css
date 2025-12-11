@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.dNone {
+    display: none !important;
+}
+
+.dGrid {
+    display: grid;
+}
+
+.object--hidden {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}

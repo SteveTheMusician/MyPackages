@@ -1,0 +1,15 @@
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    user-select: none;
+}
+
+h2,h3,.title-detectionItem {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    user-select: none;
+}
+
+p, pre {
+    user-select: none;
+}
